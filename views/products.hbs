@@ -7,17 +7,19 @@
 
 <br>
 
-<button type="submit" class="custombtn" 
-onclick="location.href='products/new_products'">Agregar Gatito</button>
+<button type="submit"
+onclick="location.href='products/new_products'"><img src="https://s-media-cache-ak0.pinimg.com/736x/dc/72/12/dc7212c96c5dc32ee19a3f5e1836b69b.jpg" width="45" height="35"> Agregar Gatito</button>
 
 <br>
 
 <div class="row">
   {{#each products}}
   <div class="col-md-4">
-   <h2>{{this.name}}</h2>
-   <img src="{{this.photo}}" class="img-responsive" alt="{{this.name}}">
-   <p>Stock: {{this.stock}}</p>
+  	<div style="width:65%;height:300px"> 
+	  	<h2>{{this.name}}</h2>
+	   <img src="{{this.photo}}" class="img-thumbnail" alt="Not Image" style="width:100%;height:80%" alt="{{this.name}}">
+	   <p>Stock: {{this.stock}}</p>
+  	</div>
  </div>
  {{/each}}
 

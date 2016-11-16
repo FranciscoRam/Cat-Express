@@ -1,1 +1,28 @@
+body {
+	background-image: url(../image/cat-font.jpeg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: auto;
+	height: auto;
+	background-color: #464646;
+	color: #E0E0F8;
+}
 
+button{
+	color: black;
+}
+img{
+	color: black;
+}
+
+#stock, #name, #photo, #enviar, #cat{
+	color: black;
+	margin-top: 5px;
+	margin-left: 35%;
+}
+
+#cat, #enviar{
+	color: white;
+}
